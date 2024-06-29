@@ -14,7 +14,7 @@ def brute_force_pin(pin_corretto):
 
 
 def main():
-    pin_corretto = "745632"
+    pin_corretto = "712304"
     start_time = time.time()
 
     pin_trovato = brute_force_pin(pin_corretto)
