@@ -40,7 +40,7 @@ def brute_force_password(correct_password, max_length=10):
 
 
 def main():
-    correct_password = "aaa"
+    correct_password = "aaabbb"
     start_time = time.time()
 
     found_password = brute_force_password(correct_password)
